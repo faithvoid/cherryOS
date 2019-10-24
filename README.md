@@ -1,5 +1,7 @@
 # cherryOS
 Collection of fonts and themes I use on Arch Linux with XFCE4.
+ 
+![cherryOS](https://raw.githubusercontent.com/faithvoid/cherryOS/master/screenshots/clean.png)
 
 ## Installation:
 - Extract ArcBlackSweetLilac-and-etude46.tar.gz to .themes in your home directory
