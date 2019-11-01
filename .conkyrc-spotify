@@ -72,7 +72,8 @@ Total Download:$alignr${totaldown wlp3s0}
 
 N O W  P L A Y I N G
 ${hr}
-${if_running spotify}${voffset 10}Spotify - ${exec ~/.conky/conky-spotify/scrip>
-Title: ${exec ~/.conky/conky-spotify/scripts/title.sh}
-Artist: ${exec ~/.conky/conky-spotify/scripts/artist.sh}
-Album: ${exec ~/.conky/conky-spotify/scripts/album.sh}${voffset 10}${endif}]];
+${if_running spotify}${alignc}${exec ~/.conky/conky-spotify/scripts/artist.sh}
+
+${alignc}${exec ~/.conky/conky-spotify/scripts/title.sh}
+
+${alignc}${exec ~/.conky/conky-spotify/scripts/album.sh}${voffset 10}${endif}]];
